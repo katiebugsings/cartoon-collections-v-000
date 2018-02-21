@@ -37,7 +37,14 @@ end
 
 
 def find_the_cheese(snacks)
-  #snacks.include 
-  # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
+snacks.each{ |snack|
+  if cheese_types.include?(snack)
+    return snack
+  end
+
+}
+  # the array below is here to help
+  
+  nil
 end
