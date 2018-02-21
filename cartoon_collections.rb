@@ -18,11 +18,11 @@ end
 
 def long_planeteer_calls(calls)
 calls.each{ |element|
-  if element.length < 4
-return false
+  if element.length > 4
+return true
 end
    }
-   true
+   false
 end
 
 
