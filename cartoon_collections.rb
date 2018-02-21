@@ -18,8 +18,9 @@ end
 
 def long_planeteer_calls(calls)
 true
-if calls < 4 
-else 
+if calls < 4
+  true
+else
   false
 end
 end
