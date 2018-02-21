@@ -20,9 +20,7 @@ def long_planeteer_calls(calls)
 true
 end
 
-def long_planeteer_calls(short_words)
-  false
-end
+
 
 
 
