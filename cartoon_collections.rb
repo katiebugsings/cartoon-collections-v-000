@@ -45,6 +45,6 @@ snacks.each{ |snack|
 
 }
   # the array below is here to help
-  
+
   nil
 end
