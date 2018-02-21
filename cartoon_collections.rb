@@ -18,7 +18,6 @@ end
 
 def long_planeteer_calls(calls)
 true
-i
 end
 
 
